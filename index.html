@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css3update</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+        .ball{
+            height: 10px;
+            width: 10px;
+            background-color: black;
+            border-radius: 50%;
+            position: relative;
+            left: 180px;
+
+        }
+        .ball:hover{
+           transform: rotate(-60deg);
+           transform-origin: 1000%; 0%;
+           transition-delay: .2s;
+
+        }
+        .balll{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    position: absolute;
+}
+.stage{
+    background-color: aquamarine;
+    height: 200px;
+    min-width: 800px;
+}
+.calender ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1em;
+}
+.calender li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 4.5em;
+    height: 125px;
+    background-color: darkgrey;
+}
+  
+    </style>
+</head>
+<body>
+    <div class="">
+        <img src="colin-meg-gmAqud8x0CA-unsplash.jpg" alt="" height="100px" width="100px">
+    </div>
+     <div class="box1">
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nostrum, sit, eaque modi iure necessitatibus tempora esse maxime nemo impedit saepe, repellendus adipisci incidunt error dignissimos nisi ab ducimus mollitia Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vel recusandae, Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ea, labore explicabo eveniet velit ratione laborum hic illum adipisci voluptate, sint quis iste quos cumque nesciunt provident magnam deserunt consequuntur! perferendis, laborum saepe sit quis impedit inventore qui deleniti dolorem nostrum eveniet. Alias dicta neque eos fugiat nostrum velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quas officiis voluptatibus tenetur magni minus ex aperiam nisi ullam? Animi voluptates ipsum eius sunt facere tempore magnam dolorem. Amet, fugit!</p>
+    </div>
+    <div class="box2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate hic earum tempora obcaecati, blanditiis ipsa vitae incidunt fugit assumenda facilis aliquam dolorum unde similique rem distinctio doloremque deserunt quasi deleniti quod, illo sed nisi atque. Porro unde temporibus accusamus voluptates fuga? Veritatis fugit eum recusandae perferendis quos cumque cupiditate sed provident ab qui, accusamus labore molestiae voluptatum ea corporis odit iste debitis exercitationem tenetur soluta neque excepturi, hic eius? Porro itaque, odit maxime placeat vitae ut rem, facere minima quibusdam vero soluta. Nam cum facilis officiis voluptas perferendis distinctio quisquam rem hic molestias deserunt minima sequi, incidunt, omnis deleniti illo eos voluptates quo ut aspernatur neque, ipsa corrupti debitis laborum. Doloribus doloremque nulla dolorum ullam nihil ipsam numquam qui id.</p>
+    </div>
+    <h1>Tranform</h1>
+    <div class="box outer">
+        <div class="b0x inner">box-1</div>
+    </div>
+    <div class="box outer">
+        <div class="b0x inner">box-2</div>
+    </div>
+    <div class="box outer">
+        <div class="b0x inner">box-3</div>
+    </div>
+    <div class="tran">
+        <h1>Trantion</h1>
+    </div>
+    <div class="cri">
+        <img class="bat" src="images.jpg" alt="">
+    </div>
+    <div class="ball">
+
+    </div>
+    <div class="stage">
+        <div class="balll">
+
+        </div>
+
+    </div>
+
+    <section class="top">
+        <div class="half-width">
+        <h1>Welcome To </h1>
+        <h1><span class="name">Sadik</span> World</h1>
+        <h3>World class Web developer</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus illo reprehenderit labore praesentium optio facilis cupiditate voluptate itaque minima, voluptas impedit, ab inventore, architecto aperiam. Eligendi explicabo quidem sapiente ex.</p>
+        <a class="link" href="https://www.linkedin.com/in/mohammad-sadik-a49b81237/">Hire Me</a>
+        </div>
+            <div class="half-width">
+            <img src="peter.png" alt="">
+        </div>
+       </section>
+       <section class="dream">
+         <div  class="half-width">
+           <img src="peter_dream.png" alt="">
+    
+         </div> 
+         <div  class="half-width">
+           <h2>Dream Big</h2>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde asperiores voluptas natus neque, esse porro modi pariatur obcaecati voluptatem aliquid quis nulla! Saepe voluptas nulla, minima consectetur voluptate voluptatem! Harum.</p>
+           <a class="link" href="https://www.facebook.com/sadikmuktadir.mithun"> Visit My Facebook</a>
+    
+         </div>
+       </section>
+       <section class="exp">
+         <h2>Experiences</h2>
+         <div id="full" class="half-width sadik">
+           <h2  class="name">Full stack Web developer</h2>
+           <h3>2021-Present</h3>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus necessitatibus modi architecto aperiam consequuntur optio, id dolore nisi, eveniet expedita voluptates vero maiores. Eveniet voluptatibus recusandae maxime omnis ipsam doloremque!</p>
+    
+       </div>
+       <div class="half-width sadik">
+         <h2  class="name">Baby web developer</h2>
+         <h3>2020-2021</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus rem saepe hic eaque reiciendis aliquid nesciunt inventore esse magni, pariatur distinctio aut fugit placeat. Dolorum quidem nesciunt id deserunt blanditiis.</p>
+    
+       </div>
+    
+       </section>
+       <div class="comment">
+          <h1> My Lastest Word</h1>
+       </div>
+       <div class="pro">
+           <img src="work-1.png" alt="" height="500px" width="500px">
+           <img src="work-2.jpg" alt="" height="500px" width="500px">
+           <img src="work-3.jpg" alt="" height="500px" width="500px">
+
+       </div>
+       <div class="lastedt">
+           <h1>What Client Say</h1><br>
+           <h4>Dr.Mohammad Bin Alam</h4>
+           <h6>Founder MMM Foundation</h6>
+           <div class="munna">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, quam? Veniam veritatis nobis, soluta ratione aliquid architecto ipsum. Aliquam tempora porro eligendi eveniet unde quae quam quas? Consequatur, labore eveniet.
+
+           </div>
+
+       </div>
+       <div class="tai">
+         <h3>Send me your comment</h3>
+         <h2>sadikmoktadir86@gmail.com</h2>
+
+       </div>
+       <div class="container">
+           <div class="boxx">Happy</div>
+           <div class="boxx">Or</div>
+          <div class="boxx">Sad</div>
+
+       </div>
+       <div class="coontainer">
+        <div class="boxx">Happy</div>
+        <div class="boxx">Or</div>
+       <div class="boxx">Sad</div>
+
+    </div>
+    <div class="grid">
+        <div class="boox">1</div>
+        <div class="boox">2</div>
+        <div class="boox">3</div>
+        <div class="boox">4</div>
+        <div class="boox">5</div>
+        <div class="boox">6</div>
+        <div class="boox">7</div>
+        <div class="boox">8</div>
+        <div class="boox">9</div>
+        <div class="boox">10</div>
+        <div class="boox">11</div>
+        <div class="boox">12</div>
+    </div>
+    <div class="caa">
+        <h1>Callender</h1>
+
+    </div>
+    <div class="calender">
+    
+        <ul class="noob">
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+</body>
+</html>
